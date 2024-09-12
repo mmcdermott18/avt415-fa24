@@ -1,8 +1,27 @@
-h1 {
-	color: blue;
-	font-weight: bold;
+a:link, a:visited {
+	font-family: sans-serif;
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px dotted tomato;
 }
-/*this is a comment in css*/
-h2 {
-	color: red;
+/* this is an element selector */
+h1 {
+	font-size: 50px;
+}
+#lower {
+	text-transform: lowercase;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+.green {
+	color: green;
+}
+.purple {
+	color: rebeccapurple;
+}
+a:hover, a:active {
+	color: tomato;
+	text-decoration: none;
+	border-bottom: 2px solid tomato;
 }
