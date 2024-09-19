@@ -1,0 +1,42 @@
+body {
+	background-color: goldenrod;
+}
+h1 {
+	font-family: sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
+	text-align: center;
+	margin-top: 45vh;
+}
+
+@media screen and (min-width: 600px) {
+/* styles for screen sizes 1024px and above */
+	body {
+		background-color: lightcyan;
+	}
+}
+@media screen and (min-width: 768px) {
+/* styles for screen sizes 1024px and above */
+	body {
+		background-color: rebeccapurple;
+	}
+}
+@media screen and (min-width: 1024px) {
+/* styles for screen sizes 1024px and above */
+	body {
+		background-color: tomato;
+	}
+	h1 {
+		font-size: 100px;
+		color: black;
+		margin-top: 40vh;
+	}
+}
+@media screen and (min-width: 1200px) {
+/* styles for screen sizes 1024px and above */
+	body {
+		background-color: mediumseagreen;
+	}
+}
