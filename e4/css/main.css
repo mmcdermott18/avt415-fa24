@@ -10,7 +10,9 @@ h1 {
 	text-align: center;
 	margin-top: 45vh;
 }
-
+.large-size {
+	display: none;
+}
 @media screen and (min-width: 600px) {
 /* styles for screen sizes 1024px and above */
 	body {
@@ -21,6 +23,12 @@ h1 {
 /* styles for screen sizes 1024px and above */
 	body {
 		background-color: rebeccapurple;
+	}
+	.large-size {
+		display: block;
+	}
+	.small-size {
+		display: none;
 	}
 }
 @media screen and (min-width: 1024px) {
