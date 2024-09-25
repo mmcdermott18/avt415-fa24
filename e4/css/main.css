@@ -1,19 +1,19 @@
 body {
-  background-color: crimson;
+  background-color: darkcyan;
   margin: 0;
-  font-size: 32px;
+  font-size: 64px;
   font-family: 'Noto Serif Display', serif;
 }
 p {
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: pink;
+  color: goldenrod;
   font-weight: bold;
   text-align: center;
   line-height: .1em;
 }
 .bigger {
-  font-size: 2.5em;
+  font-size: 2em;
   padding-top: .2em;
 }
 div {
@@ -25,10 +25,13 @@ div {
 
 @media only screen and (max-width: 768px) {
   body {
-    background-color: pink;
+    background-color: goldenrod;
   }
   p {
-    color: crimson;
+    color: darkcyan;
+  }
+  div {
+    margin-top: 45vh;
   }
   .mobile-only {
     display: block;
