@@ -2,13 +2,20 @@
   box-sizing: border-box;
 }
 body {
-  font-size: 24px;
   margin: 0;
+  background-color: lightcoral;
 }
-div {
-  width: 600px;
-  margin: 100px auto;
+div.outside {
+  width: 50vw;
+  height: 50vh;
+  margin: calc((100vh - 50vh) / 2) calc((100vw - 50vw) / 2);
+  padding: 100px;
+  border: 50px solid black;
+  background-color: darkcyan;
 }
-p {
-  margin-top: 0;
+div.inside {
+  width: 100%;
+  height: 100%;
+  background-color: goldenrod;
+  border: 10px solid white;
 }
